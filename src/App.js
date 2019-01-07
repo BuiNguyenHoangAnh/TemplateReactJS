@@ -17,6 +17,7 @@ import InputGroupPage from 'pages/InputGroupPage';
 import ModalPage from 'pages/ModalPage';
 import ProgressPage from 'pages/ProgressPage';
 import TablePage from 'pages/TablePage';
+import ColorPage from 'pages/ColorPage';
 import TypographyPage from 'pages/TypographyPage';
 import WidgetPage from 'pages/WidgetPage';
 import React from 'react';
@@ -97,6 +98,12 @@ class App extends React.Component {
               path="/tables"
               layout={MainLayout}
               component={TablePage}
+            />
+            <LayoutRoute
+              exact
+              path="/color"
+              layout={MainLayout}
+              component={ColorPage}
             />
             <LayoutRoute
               exact
