@@ -139,9 +139,9 @@ class Header extends React.Component {
               style={{ minWidth: 250 }}>
               <PopoverBody className="p-0 border-light">
                 <UserCard
-                  title="Jane"
-                  subtitle="jane@jane.com"
-                  text="Last updated 3 mins ago"
+                  title="Winny"
+                  subtitle="winny@gmail.com"
+                  text="Last updated 5 mins ago"
                   className="border-light">
                   <ListGroup flush>
                     <ListGroupItem tag="button" action className="border-light">

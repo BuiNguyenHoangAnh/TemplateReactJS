@@ -72,12 +72,12 @@ const navContents = [
 
 const pageContents = [
   { to: '/login', name: 'login / signup', exact: false, Icon: MdAccountCircle },
-  {
-    to: '/login-modal',
-    name: 'login modal',
-    exact: false,
-    Icon: MdViewCarousel,
-  },
+  // {
+  //   to: '/login-modal',
+  //   name: 'login modal',
+  //   exact: false,
+  //   Icon: MdViewCarousel,
+  // },
 ];
 
 const navItems = [
@@ -121,7 +121,7 @@ class Sidebar extends React.Component {
                 alt=""
               />
               <span className="text-white">
-                Reduction <FaGithub />
+                Template <FaGithub />
               </span>
             </SourceLink>
           </Navbar>

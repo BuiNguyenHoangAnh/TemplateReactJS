@@ -24,87 +24,11 @@ import { getStackLineChart, stackLineChartOptions } from 'demos/chartjs';
 import Page from 'components/Page';
 import { UserCard } from 'components/Card';
 
-import bg1Image from 'assets/img/bg/background_640-1.jpg';
-import bg3Image from 'assets/img/bg/background_640-3.jpg';
-import bg11Image from 'assets/img/bg/background_1920-11.jpg';
-import bg18Image from 'assets/img/bg/background_1920-18.jpg';
 import user1Image from 'assets/img/users/100_1.jpg';
 
 const CardPage = () => {
   return (
     <Page title="Cards" breadcrumbs={[{ name: 'cards', active: true }]}>
-      <Row>
-        <Col md={6} sm={6} xs={12} className="mb-3">
-          <Card className="flex-row">
-            <CardImg
-              className="card-img-left"
-              src={bg1Image}
-              style={{ width: 'auto', height: 150 }}
-            />
-            <CardBody>
-              <CardTitle>Horizontal Image Card(Left)</CardTitle>
-              <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </CardText>
-            </CardBody>
-          </Card>
-        </Col>
-
-        <Col md={6} sm={6} xs={12} className="mb-3">
-          <Card className="flex-row">
-            <CardBody>
-              <CardTitle>Horizontal Image Card(Right)</CardTitle>
-              <CardText>Some quick example card</CardText>
-            </CardBody>
-            <CardImg
-              className="card-img-right"
-              src={bg3Image}
-              style={{ width: 'auto', height: 150 }}
-            />
-          </Card>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={6} sm={6} xs={12} className="mb-3">
-          <Card>
-            <CardImg top src={bg11Image} />
-            <CardBody>
-              <CardTitle>Card with image</CardTitle>
-              <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </CardText>
-            </CardBody>
-          </Card>
-        </Col>
-
-        <Col md={6} sm={6} xs={12} className="mb-3">
-          <Card>
-            <CardImg top src={bg18Image} />
-            <CardBody>
-              <CardTitle>Card with list group</CardTitle>
-              <CardText>
-                This example shows how to use card with list group{' '}
-              </CardText>
-            </CardBody>
-            <ListGroup flush>
-              <ListGroupItem>Cras justo odio</ListGroupItem>
-              <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-              <ListGroupItem>Morbi leo risus</ListGroupItem>
-            </ListGroup>
-            <CardBody>
-              <CardLink tag="a" href="#">
-                Go to details
-              </CardLink>
-              <CardLink tag="a" href="#">
-                More
-              </CardLink>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
-
       <Row>
         {['', 'top', 'left', 'right'].map(color => (
           <Col md={6} sm={6} xs={12} className="mb-3">

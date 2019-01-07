@@ -31,7 +31,7 @@ class MainLayout extends React.Component {
 
       this.notificationSystem.addNotification({
         title: <MdImportantDevices />,
-        message: 'Welome to Reduction Admin!',
+        message: 'Welcome to Template Page!',
         level: 'info',
       });
     }, 1500);
@@ -44,7 +44,7 @@ class MainLayout extends React.Component {
       this.notificationSystem.addNotification({
         title: <MdLoyalty />,
         message:
-          'Reduction is carefully designed template powered by React and Bootstrap4!',
+          'We love code and want to help you use React easily!',
         level: 'info',
       });
     }, 2500);
