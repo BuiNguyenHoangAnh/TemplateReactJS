@@ -6,8 +6,8 @@ import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
 const ColorPage = () => {
   return (
     <Page
-        title="Typography"
-        breadcrumbs={[{ name: 'typography', active: true }]}>
+        title="Color"
+        breadcrumbs={[{ name: 'color', active: true }]}>
         <Row>
             <Col>
                 <Card style={{backgroundColor: '#1abc9c' }}>
